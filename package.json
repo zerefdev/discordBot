@@ -1,0 +1,27 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Node.js discord bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerefdev/discordBot.git"
+  },
+  "keywords": [
+    "discord",
+    "discordbot",
+    "discordbot.js"
+  ],
+  "author": "Zerefdev",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Zerefdev/discordBot/issues"
+  },
+  "homepage": "https://github.com/Zerefdev/discordBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
