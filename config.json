@@ -1,4 +1,5 @@
 {
   "prefix": "_",
-  "token": "yourBotTokenHere",
+  "admin": "yourAdminroleHere",
+  "token": "yourBotTokenHere"
 }

@@ -1,11 +1,11 @@
-const {prefix} = require('../config.json');
+const {admin, prefix} = require('../config.json');
 
 module.exports.run = (_client, message, args) => {
   const user = message.mentions.users.first(),
         member = message.guild.member(user),
         reason = args.join(' ').slice(22);
 
-  if (message.member.hasPermission('KICK_MEMBERS')) {
+  if (message.member.roles.find(r => r.name === admin)) {
     if (reason) {
       if (user && member) {
         member.kick(reason).then(() => {
